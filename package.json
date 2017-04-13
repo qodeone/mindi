@@ -1,0 +1,13 @@
+{
+  "name": "mindi",
+  "version": "1.0.0",
+  "description": "A fork of Drupal 8.3.0 focused on front end frameworks",
+  "main": "index.js",
+  "repository": "git@github.com:qodeone/mindi.git",
+  "author": "Isaac Horton <isaac@qode.one>",
+  "license": "MIT",
+  "dependencies": {
+    "uikit": "^3.0.0-beta.21",
+    "vue-cli": "^2.8.1"
+  }
+}
