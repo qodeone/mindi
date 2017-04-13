@@ -1,0 +1,267 @@
+.q-link.qLogo.hidden-xs {
+    display: none;
+}
+
+div#QuiversRibbon {
+    font-family: sans-serif !important;
+    text-transform: uppercase;
+    color: #999 !important;
+     width: auto !important;
+}
+
+span.qButtonText {
+    font-family: sans-serif !important;
+    text-transform: uppercase;
+    color: #999 !important;
+    border-bottom: 1px solid #ddd;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+.q-link.qName.hidden-xs {
+    display: none !important;
+}
+
+#QuiversRibbon[data-position="top"][data-style="compact"] .q-link a[data-nav="cart"] .qCart-num, #QuiversRibbon[data-position="top"][data-style="compact"] .q-link a[data-nav="wishlist"] .qCart-num {
+    font-size: 0px !important;
+}
+
+#QuiversRibbon {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    transition: none !important;
+    font-family: sans-serif !important;
+    position: absolute !important;
+}
+
+#QuiversRibbon[data-position="top"][data-style="compact"] .q-link a {
+    padding: 0px 0px 0px 0px !important;
+    height: 50px;
+}
+
+.view.widget.row {
+    background: #fafafa !important;
+}
+
+.qProductsUI.qWidget.qSection.row {
+    font-family: sans-serif !important
+}
+.q-link.qName {
+    display: none;
+}
+
+h2.qProductName.notranslate {
+    display: none;
+}
+
+[quivers-view="true"] .view .view-body {
+    padding: 0px !important;
+}
+
+div#qWidget-24333 {
+    padding-bottom: 25px;
+    background: #fafafa !important;
+}
+
+#currentView .qProductsUI .qProductDetails .qProductOverview .qVariantDetails, [quivers-view="true"] .qProductsUI .qProductDetails .qProductOverview .qVariantDetails {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: rgba(100,100,100,0.09804) 0px 0px 8px 0px inset;
+    box-shadow: rgba(100,100,100,0.09804) 0px 0px 8px 0px inset;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 0px !important;
+    padding-top: 15px;
+    float: left;
+    width: 100%;
+}
+
+a.qWidgetButton.qAddToCart {
+    border-radius: 0px !important;
+    background-color: #ddd;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: #A9A9A9 !important;
+}
+
+.qVariantDetails {
+    font-family: sans-serif !important;
+    font-weight: 300 !important;
+}
+
+[quivers-bootstrap="true"] .form-control {
+    border-radius: 0px !important;
+
+}
+
+span.qButtonText:hover {
+    background-color: #fafafa;
+    color: #A9A9A9;
+}
+
+#QuiversRibbon[data-position="top"][data-style="compact"] .q-link.qIcon {
+    width: 58px !important;
+}
+
+#QuiversDialogBoxContainer #QuiversDialogBox .qDialogHeader {
+    background-color: #fafafa;
+    border: solid 1px #ddd;
+}
+
+#QuiversDialogBoxContainer #QuiversDialogBox .qDialogHeader .qDialogTitle {
+    color: #666 !important;
+    font-family: sans-serif !important;
+    letter-spacing: .2px;
+    text-transform: uppercase;
+    font-weight: 300 !important;
+    font-size: 16px !important;
+}
+
+[quivers-bootstrap="true"] .alert-success {
+   color: #666 !important;
+    background-color: #fafafa;
+    border-color: #ddd;
+    border-radius: 0px !important;
+}
+
+[quivers-bootstrap="true"] .glyphicon-remove:before {
+    content: "\e014";
+    color: #a9a9a9;
+}
+
+#QuiversDialogBoxContainer #QuiversDialogBox .qDialogHeader .qDialogClose span {
+    top: 3.5px;
+}
+
+a.qWidgetButton {
+    border-radius: 0px !important;
+    font-family: sans-serif !important;
+    text-transform: uppercase;
+    font-weight: 300 !important;
+    font-size: 13px;
+    background-color: #fafafa !important;
+    color: #666 !important;
+    border: solid 1px #ddd !important;
+}
+
+#QuiversDialogBoxContainer #QuiversDialogBox .qDialogHeader .qDialogClose:hover {
+    background-color: transparent;
+}
+
+a.qWidgetButton:hover {
+    color: #fff;
+    background-color: rgba(26,26,26,1) !important;
+}
+
+.view.checkout.row {
+    padding-top: 25px !important;
+}
+
+h2.qCartTitle {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 300 !important;
+    font-size: 24px;
+}
+
+#currentView .qCartContents .qCheckoutSections, [quivers-view="true"] .qCartContents .qCheckoutSections {
+    border: solid 1px #ddd;
+    border-radius: 0px !important;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+    font-family: sans-serif;
+    font-weight: 300 !important;
+    letter-spacing: .2px !important;
+}
+
+.qCartDisclaimers.col-xs-12 {
+    display: none !important;
+}
+
+[quivers-bootstrap="true"] .list-group-item:first-child {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+
+ul.qTotalsList.list-group {
+    font-family: sans-serif;
+    letter-spacing: .2px !important;
+    font-weight: 300 !important;
+}
+
+h4.qTotalsTitle {
+    font-family: sans-serif !important;
+    letter-spacing: .2px !important;
+    font-weight: 300 !important;
+}
+
+.qDisclaimer {
+    font-weight: 300 !important;
+}
+
+#currentView .qCartContents .qPromoCodeTitle, [quivers-view="true"] .qCartContents .qPromoCodeTitle {
+    letter-spacing: .2px !important;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300 !important;
+    font-size: 14px;
+}
+
+button.btn.qSubmitDiscountButton {
+    border-radius: 0px !important;
+    background-color: #fafafa !important;
+    border: solid 1px #ddd !important;
+    color: #666 !important;
+    font-weight: 300 !important;
+}
+
+[quivers-bootstrap="true"] .list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+button.btn.qSubmitDiscountButton:hover {
+    background-color: #010101 !important;
+    color: #a9a9a9 !important;
+}
+
+#currentView .qCartContents .qBrandItems .qCartItem .qItemName .qProductName, #currentView .qCartContents .qDisabledItems .qCartItem .qItemName .qProductName, [quivers-view="true"] .qCartContents .qBrandItems .qCartItem .qItemName .qProductName, [quivers-view="true"] .qCartContents .qDisabledItems .qCartItem .qItemName .qProductName {
+    font-size: 16px;
+    font-weight: 300 !important;
+    float: left;
+    width: 100%;
+    padding-bottom: 6px;
+}
+
+@media (max-width: 756px) {
+   #QuiversRibbon {
+       margin-top: 31px !important;
+   }
+
+
+   .view.widget.row {
+       padding: 0px;
+   }
+
+   .qProductsUI {
+       margin-left: 0px !important;
+   }
+
+   .qProductsUI .col-xs-12 {
+       padding: 0px;
+   }
+}
+
+h3.qInStoreTitle {
+    font-family: sans-serif !important;
+    letter-spacing: .2px !important;
+    font-weight: 300 !important;
+    font-size: 18px !important;
+}
+
+.qItemInstorePickup.col-xs-12 {
+    display: none;
+}
+

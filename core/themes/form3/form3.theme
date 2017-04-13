@@ -1,0 +1,66 @@
+<?php
+/**
+ * @file
+ * The primary PHP file for the form3 sub theme of Uikitty
+ *
+ */
+
+/**
+ * Implements hook_preprocess_node().
+ */
+function form3_preprocess_node(&$variables) {
+
+  $variables['base_path'] = base_path();
+}
+/**
+ * makes taxonomy term variables(like taxonomy images) available on hook_preprocess_page().
+ * you can access the fields from the term in page--taxonomy.html.twig:
+ * {{ file_url(term.field_category_image.entity.uri.value) }} or {{ term.field_category_subtitle.value|raw }}
+ */
+function form3_preprocess_page(&$variables) {
+  if (\Drupal::routeMatch()->getRouteName() == 'entity.taxonomy_term.canonical') {
+    $term = \Drupal::routeMatch()->getParameter('taxonomy_term');
+    $variables['term'] = $term;
+  }
+}
+
+
+/**
+ * Paragraphs template helpers for insightly web to lead form
+ */
+function form3_preprocess_paragraph__insightly_form(&$variables) {
+  $paragraph = $variables['paragraph'];
+  if (!$paragraph->field_background_image->isEmpty()) {
+    $image = $paragraph->field_background_image->entity->url();
+    $variables['attributes']['style'][] = 'background-image: url("' . $image . '");';
+    $variables['attributes']['style'][] = 'background-size: cover;';
+    $variables['attributes']['style'][] = 'background-position: center center;';
+  }
+}
+function form3_preprocess_paragraph__hero_2col_image_right(&$variables) {
+  $paragraph = $variables['paragraph'];
+  if (!$paragraph->field_background_image->isEmpty()) {
+    $image = $paragraph->field_background_image->entity->url();
+    $variables['attributes']['style'][] = 'background-image: url("' . $image . '");';
+    $variables['attributes']['style'][] = 'background-size: cover;';
+    $variables['attributes']['style'][] = 'background-position: center center;';
+  }
+}
+function form3_preprocess_paragraph__team_img_right(&$variables) {
+  $paragraph = $variables['paragraph'];
+  if (!$paragraph->field_background_image->isEmpty()) {
+    $image = $paragraph->field_background_image->entity->url();
+    $variables['attributes']['style'][] = 'background-image: url("' . $image . '");';
+    $variables['attributes']['style'][] = 'background-size: cover;';
+    $variables['attributes']['style'][] = 'background-position: center center;';
+  }
+}
+function form3_preprocess_paragraph__tam_img_left(&$variables) {
+  $paragraph = $variables['paragraph'];
+  if (!$paragraph->field_background_image->isEmpty()) {
+    $image = $paragraph->field_background_image->entity->url();
+    $variables['attributes']['style'][] = 'background-image: url("' . $image . '");';
+    $variables['attributes']['style'][] = 'background-size: cover;';
+    $variables['attributes']['style'][] = 'background-position: center center;';
+  }
+}

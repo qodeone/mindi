@@ -1,0 +1,46 @@
+default:
+  version: 1.x
+  css:
+    theme:
+      css/fonts.css: {}
+      css/app.css: {}
+  js:
+    js/app.js: {}
+    
+skrollr:
+  js:
+    js/skrollr.min.js: {}
+    js/skrollr.js: {}
+  dependencies:
+    - core/drupal
+    
+gradient:
+  version: 1.x
+  js:
+    js/gradient.js: {}
+        
+gradient-green:
+  version: 1.x
+  js:
+    js/gradient-green.js: {}
+    
+typed-homeslide:
+  version: 1.x
+  css:
+    theme:
+      js/typed/typed-homeslide.css: {}
+  js:
+    js/typed/typed.js: {}
+    js/typed/typed-homeslide.js: {}
+    
+biglanding:
+  version: 1.x
+  css:
+    theme:
+      css/biglanding.css: {}
+    
+softwarepage:
+  version: 1.x
+  css:
+    theme:
+      css/softwarepage.css: {}

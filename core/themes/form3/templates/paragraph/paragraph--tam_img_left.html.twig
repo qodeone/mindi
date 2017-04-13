@@ -1,0 +1,23 @@
+<div{{ attributes.addClass('bc-widewhite uk-section uk-section-secondary') }}>
+
+<div class="uk-container">
+	<div class="uk-grid-match" uk-grid>
+		<div class="uk-width-1-2" uk-scrollspy="cls:uk-animation-fade">
+			<div class="uk-card">
+			    <div class="uk-card-media-left">
+			    {{ content.field_hero_half }}
+			    </div>
+		    </div>
+		</div>
+		<div class="uk-width-1-2 uk-card uk-card-secondary">
+
+		        <div class="uk-card-body uk-light">
+		    	{{ content|without('field_hero_half', 'field_background_image') }}
+		    	</div>
+
+		</div>
+
+	</div>
+</div>
+
+</div>

@@ -1,0 +1,59 @@
+
+.field--name-field-app-window {
+  -webkit-perspective: 1200px;
+          perspective: 1200px;
+  -webkit-perspective-origin: 80% 80%;
+          perspective-origin: 80% 80%;
+  position: relative;
+}
+
+.field--name-field-app-window .field__item {
+  -webkit-transform: rotateX(0deg) rotateY(-15deg);
+          transform: rotateX(0deg) rotateY(-15deg);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.field--name-field-app-window .field__item:hover {
+  -webkit-transform: rotateX(0deg) rotateY(0deg);
+          transform: rotateX(0deg) rotateY(0deg);
+}
+.toparc-white {
+	height:118px;
+	background:url("../img/a2017/btm-arc-white.png") right bottom no-repeat transparent;
+	background-size:cover;
+	background-position:right bottom;
+	margin-top:-118px;
+	z-index:500;
+	position:relative;
+}
+.botarc-white {
+	height:118px;
+	background:url("../img/a2017/top-arc-white.png") center top no-repeat transparent;
+	background-size:cover;
+	background-position:center top;
+	z-index:500;
+	position:relative;
+}
+.fourcolumn img {
+	width:250px;
+	margin:0 auto;
+}
+.blackgradient {
+    background: url("../img/a2017/canna-product.png") no-repeat scroll 700% 50%, -webkit-linear-gradient(30deg, #191919 0%, #666 100%) no-repeat scroll center center;
+    background: url("../img/a2017/canna-product.png") no-repeat scroll 700% 50%, linear-gradient(60deg, #191919 0%, #666 100%) no-repeat scroll center center;
+    background-size: 93%, cover;
+    min-height: 600px;
+  }
+ .curve2 {
+	background: url("../img/curves/3.svg") no-repeat scroll center center/cover border-box;
+	
+} 
+  
+@media (max-width: 960px) {
+.bl-section2 {
+	margin-bottom:20px;
+}
+}
